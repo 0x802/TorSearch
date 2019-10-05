@@ -1,4 +1,6 @@
 <h1 align="center">
+  <a href="https://github.com/HathemAhmed/TorSearch"><img src="https://www.torproject.org/static/images/home/svg/surveillance.svg?h=300a200c" width=296px height=166px alt="Tor Search"></a>
+
   <br>
   Tor Search
   <br>
