@@ -21,3 +21,9 @@ $ python3 -m pip install -r requirements.txt
 $ chmod +x TorSearch.py
 $ ./TorSearch.py <dork> 
 ```
+
+### _Use_
+
+![Screenshot from 2019-10-05 05-22-04](https://github.com/HathemAhmed/TorSearch/blob/master/image1.png)
+------------------------------------------------------------------------------------------------------
+![Screenshot from 2019-10-05 05-22-10](https://github.com/HathemAhmed/TorSearch/blob/master/image2.png)
