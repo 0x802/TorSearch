@@ -5,19 +5,19 @@ import time
 try:
     import requests
 except ImportError:
-    print("[!!!] Error import 'requests' model ")
+    print("[ ! ] Error import 'requests' model ")
     exit()
 
 try:
     from interruptingcow import timeout
 except ImportError:
-    print("[!!!] Error import 'interruptingcow' model ")
+    print("[ ! ] Error import 'interruptingcow' model ")
     exit()
 
 try: 
     from bs4 import BeautifulSoup
 except ImportError:
-    print("[!!!] Error import 'bs4' model ")
+    print("[ ! ] Error import 'bs4' model ")
     exit()
 
 # COLORS
@@ -77,16 +77,15 @@ if __name__ == "__main__":
     dork = str()
     try:
         s, *a = sys.argv
-        if a == []:
-            exit()
-    except:
-        print(f"Ex:\n\t\apython {s} <dork>")
-        exit()
+        if a == []:exit()
+    
+   except:
+        print(f"Ex:\n\t\apython {s} <dork>");exit()
 
     if len(a) > 1:
         
         for i in a:dork += f'{i}+'
 
     else:dork = a[0]
-
+               
     GET_PROCESS_DATA(dork)
