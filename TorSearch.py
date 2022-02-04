@@ -79,7 +79,7 @@ if __name__ == "__main__":
         s, *a = sys.argv
         if a == []:exit()
     
-   except:
+    except:
         print(f"Ex:\n\t\apython {s} <dork>");exit()
 
     if len(a) > 1:
